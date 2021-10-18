@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/bootloader/subproject",
+    "build_dir":          "D:/eclipse/github/4x7seg/7SEG/build/bootloader",
+    "config_file":        "D:/eclipse/github/4x7seg/7SEG/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3.1-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/efuse/Kconfig;D:/eclipse/esp-idf/esp-idf-v4.3.1/components/esp32/Kconfig;D:/eclipse/esp-idf/esp-idf-v4.3.1/components/esp_common/Kconfig;D:/eclipse/esp-idf/esp-idf-v4.3.1/components/esp_system/Kconfig;D:/eclipse/esp-idf/esp-idf-v4.3.1/components/log/Kconfig;D:/eclipse/esp-idf/esp-idf-v4.3.1/components/newlib/Kconfig;D:/eclipse/esp-idf/esp-idf-v4.3.1/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/bootloader/Kconfig.projbuild;D:/eclipse/esp-idf/esp-idf-v4.3.1/components/esptool_py/Kconfig.projbuild;D:/eclipse/esp-idf/esp-idf-v4.3.1/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/bootloader", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/bootloader_support", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/efuse", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/esp32", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/esp_common", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/esp_hw_support", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/esp_rom", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/esp_system", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/esptool_py", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/hal", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/log", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/bootloader/subproject/main", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/bootloader/subproject/components/micro-ecc", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/newlib", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/partition_table", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/soc", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/spi_flash", "D:/eclipse/esp-idf/esp-idf-v4.3.1/components/xtensa", "" ]
+}
